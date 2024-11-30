@@ -1,15 +1,15 @@
-![](assets\20241201_031216_tm.png)
+![]([assets\20241201_031216_tm.png](https://github.com/haikallfiqih/tailwind-motion/blob/main/assets/20241201_031216_tm.png))
 
 # Tailwind Motion
 
-A powerful Tailwind CSS plugin that adds advanced animation utilities to your project. Features modular animation types including fade, slide, bounce, and rotate animations with customizable duration, timing, direction, and fill modes.
+A powerful Tailwind CSS plugin that adds advanced animation utilities to your project. 
 
 ## Installation
 
 1. Install the plugin:
 
 ```bash
-npm install @haikalfiqih/tailwind-motion
+npm install @haikallfiqih/tailwind-motion
 ```
 
 2. Add the plugin to your `tailwind.config.js`:
@@ -17,7 +17,7 @@ npm install @haikalfiqih/tailwind-motion
 ```js
 module.exports = {
   plugins: [
-    require('@haikalfiqih/tailwind-motion')
+    require('@haikallfiqih/tailwind-motion')
   ],
 }
 ```
@@ -173,7 +173,7 @@ const plugin = require('tailwindcss/plugin')
 
 module.exports = {
   plugins: [
-    require('@haikalfiqih/tailwind-motion'),
+    require('@haikallfiqih/tailwind-motion'),
     plugin(function({ addUtilities }) {
       const newUtilities = {
         '.animate-custom': {
