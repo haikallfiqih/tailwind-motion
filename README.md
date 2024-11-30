@@ -1,5 +1,4 @@
-![]([assets\20241201_031216_tm.png](https://github.com/haikallfiqih/tailwind-motion/blob/main/assets/20241201_031216_tm.png))
-
+![](https://github.com/haikallfiqih/tailwind-motion/blob/main/assets/20241201_031216_tm.png)
 # Tailwind Motion
 
 A powerful Tailwind CSS plugin that adds advanced animation utilities to your project. 
