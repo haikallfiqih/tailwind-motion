@@ -1,3 +1,5 @@
+![](assets\20241201_031216_tm.png)
+
 # Tailwind Motion
 
 A powerful Tailwind CSS plugin that adds advanced animation utilities to your project. Features modular animation types including fade, slide, bounce, and rotate animations with customizable duration, timing, direction, and fill modes.
@@ -5,11 +7,13 @@ A powerful Tailwind CSS plugin that adds advanced animation utilities to your pr
 ## Installation
 
 1. Install the plugin:
+
 ```bash
 npm install @haikalfiqih/tailwind-motion
 ```
 
 2. Add the plugin to your `tailwind.config.js`:
+
 ```js
 module.exports = {
   plugins: [
@@ -21,6 +25,7 @@ module.exports = {
 ## Available Animations
 
 ### Fade Animations
+
 ```html
 <div class="animate-fade-in">Fades in</div>
 <div class="animate-fade-out">Fades out</div>
@@ -29,6 +34,7 @@ module.exports = {
 ```
 
 ### Slide Animations
+
 ```html
 <div class="animate-slide-in-up">Slides in from bottom</div>
 <div class="animate-slide-in-down">Slides in from top</div>
@@ -37,6 +43,7 @@ module.exports = {
 ```
 
 ### Bounce Animations
+
 ```html
 <div class="animate-bounce">Bounces up and down</div>
 <div class="animate-bounce-left">Bounces left</div>
@@ -45,6 +52,7 @@ module.exports = {
 ```
 
 ### Rotate Animations
+
 ```html
 <div class="animate-spin">Spins clockwise</div>
 <div class="animate-spin-reverse">Spins counter-clockwise</div>
@@ -54,6 +62,7 @@ module.exports = {
 ## Customization Options
 
 ### Duration
+
 ```html
 <div class="animate-duration-75">75ms</div>
 <div class="animate-duration-100">100ms</div>
@@ -66,6 +75,7 @@ module.exports = {
 ```
 
 ### Timing Functions
+
 ```html
 <div class="animate-timing-linear">Linear timing</div>
 <div class="animate-timing-ease">Ease timing</div>
@@ -77,6 +87,7 @@ module.exports = {
 ```
 
 ### Direction
+
 ```html
 <div class="animate-normal">Normal direction</div>
 <div class="animate-reverse">Reverse direction</div>
@@ -85,6 +96,7 @@ module.exports = {
 ```
 
 ### Fill Mode
+
 ```html
 <div class="animate-none">No fill mode</div>
 <div class="animate-forwards">Forwards fill mode</div>
@@ -116,6 +128,7 @@ You can combine different animation utilities to create custom animations:
 ## Advanced Customization
 
 ### Custom Animation Duration
+
 Add your own duration values in your `tailwind.config.js`:
 
 ```js
@@ -133,6 +146,7 @@ module.exports = {
 ```
 
 ### Custom Timing Functions
+
 Add custom easing functions:
 
 ```js
@@ -150,6 +164,7 @@ module.exports = {
 ```
 
 ### Custom Animations
+
 Create your own animations by adding keyframes and utilities:
 
 ```js
@@ -180,6 +195,7 @@ module.exports = {
 ```
 
 Then use your custom animation:
+
 ```html
 <div class="animate-custom">Custom animation</div>
 ```
