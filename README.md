@@ -8,7 +8,7 @@ A powerful Tailwind CSS plugin that adds advanced animation utilities to your pr
 1. Install the plugin:
 
 ```bash
-npm install @haikallfiqih/tailwind-motion
+npm install tailwind-motion
 ```
 
 2. Add the plugin to your `tailwind.config.js`:
@@ -16,7 +16,7 @@ npm install @haikallfiqih/tailwind-motion
 ```js
 module.exports = {
   plugins: [
-    require('@haikallfiqih/tailwind-motion')
+    require('tailwind-motion')
   ],
 }
 ```

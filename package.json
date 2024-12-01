@@ -1,8 +1,13 @@
 {
-  "name": "@haikallfiqih/tailwind-motion",
+  "name": "tailwind-motion",
   "version": "0.0.1",
   "description": "A powerful Tailwind CSS plugin for advanced animation utilities",
   "main": "index.js",
+  "homepage": "https://github.com/haikallfiqih/tailwind-motion",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haikallfiqih/tailwind-motion.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
